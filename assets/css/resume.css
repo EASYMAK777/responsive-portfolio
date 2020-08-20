@@ -1,7 +1,12 @@
+#body {
+    size: cover;
+    background-image: url(/assets/img/swirling-stars.png);
+    background-size: cover;
+}
+
 h1{
  font: bold;
  font-family: 'Bangers', cursive;
  text-align: center;
- background-image: url(./img/coffeeshop.jpg);
-
+ 
 }
