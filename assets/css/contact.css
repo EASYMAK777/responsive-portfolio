@@ -1,0 +1,21 @@
+body, html {
+    height: 1000px;
+
+  }
+  
+  .bg { 
+    /* The image used */
+    background-image: url("https://api.time.com/wp-content/uploads/2014/05/interface-lift.jpg");
+    
+  
+    
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  #row {
+    font-family: 'Bangers', cursive;
+  }

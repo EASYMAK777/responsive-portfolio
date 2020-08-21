@@ -1,8 +1,4 @@
-#body {
-    size: cover;
-    background-image: url(/assets/img/swirling-stars.png);
-    background-size: cover;
-}
+
 
 h1{
  font: bold;
@@ -10,3 +6,20 @@ h1{
  text-align: center;
  
 }
+
+
+body, html {
+    height: 100%;
+  }
+  
+  .bg { 
+    /* The image used */
+    background-image: url("https://s17736.pcdn.co/wp-content/uploads/2019/03/1_pzUhL5WpOeViwICDDgiLUA-1024x683.jpeg");
+  
+    
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
