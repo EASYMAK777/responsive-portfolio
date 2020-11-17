@@ -66,31 +66,31 @@
 
                   <br>
                   <!--put form into card body-->
-                  <div class="conta">
+                  <div class="contact">
                     <div class="card-body pb-3">
 
 
-                      <form>
-                        <div class="form-group">
-                          <label for="exampleNameInput1">Name:</label>
-                          <input type="name" class="form-control" id="exampleNameInput1" aria-describedby="emailHelp">
-                          <small id="emailHelp" class="form-text text-muted">.</small>
+                      <form id="quoteForm">
+                        <div>
+                            <label>Name</label><br>
+                            <input type="text" placeholder="Name" id="name">
                         </div>
-                        <div class="form-group">
-                          <label for="exampleInputEmail1">Email:</label>
-                          <input type="email" class="form-control" id="exampleInputEmail1">
+                        <div>
+                            <label>Email</label><br>
+                            <input type="text" placeholder="Email Address" id="email">
                         </div>
-                        <div class="form-group form-check">
-
-
+                        <div>
+                            <label>Message</label><br>
+                            <textarea placeholder="Message" id="message"></textarea>
                         </div>
-
-                        <div class="form-group">
-                          <label for="comment">Comment:</label>
-                          <textarea class="form-control" rows="5" id="comment"></textarea>
+                        <div>
+                            <label>Phone Number</label><br>
+                            <input type="text" placeholder="Phone Number" id="phone">
                         </div>
-
-
+                        <div>
+                            <button type="submit" class="button_2">Submit</button>
+                        </div>
+                    </form>
 
                         <!---changed margin of submit button-->
                         <button type="submit" class="btn btn-primary p-6">Submit</button>
