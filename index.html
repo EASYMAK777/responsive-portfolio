@@ -17,31 +17,40 @@
         <header class="container">
             <section class="row">
                 <nav class="col-12">
-                    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                        <!--added name-->
+                    <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navbar">
                         <a class="navbar-brand" href="#">Juan Flores</a>
-                        <button class="navbar-toggler" type="button" data-toggle="collapse"
-                            data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
-                            aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                          <span class="navbar-toggler-icon"></span>
                         </button>
-                        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                            <div class="navbar-nav ml-auto">
-                                <!--deleted a navbar link-->
-                                <a class="nav-item nav-link active" href="index.html">Home <span
-                                        class="sr-only">(current)</span></a>
-                                
-                                <a class="nav-item nav-link active" href="contact.html">Contact</a>
-                                <a class="nav-item nav-link active" href="portfolio.html">Portfolio</a>
-                                <a class="nav-item nav-link active" href="resume.html">Resume</a>
-                                <a class="nav-link" href="https://github.com/EASYMAK777" target="_blank">Github</a>
-                                <a class="nav-link" href="https://www.linkedin.com/in/juan-flores-aa28271b2/" target="_blank">linkedin</a>
+                        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                          <!--added ml-auto to navbar-->
+                          <ul class="navbar-nav ml-auto">
+                            <li class="nav-item active">
+                              <a class="nav-link" href="contact.html">Contact<span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="portfolio.html">Portfolio</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="index.html">About</a>
+                            </li>
+                            <li class="nav-item dropdown">
+            
+                            <li class="nav-item">
+                              <a class="nav-link" href="https://github.com/EASYMAK777" target="_blank">Github</a>
+                              
+                            </li>
+            
+                            <li>
+                              <a class="nav-link" href="https://www.linkedin.com/in/juan-flores-aa28271b2/" target="_blank">linkedin</a>
+                            </li>
                             
-                                
-                                  
-
-                            </div>
+                          </ul>
                         </div>
+                      </nav>
+            
+            
                     </nav>
                 </nav>
             </section>
