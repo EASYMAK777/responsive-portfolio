@@ -13,3 +13,20 @@ body, html {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+.list-unstyled{
+  display:flex;
+  flex-direction: column;
+  margin: 10px;
+  padding: 20px;
+  min-width: 100px;
+  
+}
+
+#navbar {
+  background-color: skyblue;
+}
+
+#footer {
+  background-color: rgb(88, 11, 14);
+}
